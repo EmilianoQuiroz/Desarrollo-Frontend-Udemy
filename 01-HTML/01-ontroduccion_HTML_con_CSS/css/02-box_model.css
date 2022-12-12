@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+p{
+    color: white;
+    background-color: brown;
+    padding: 15px;
+    /*El padding es el espacio que existe entre nuestro elemento y el margen*/
+    border: 10px solid powderblue;
+    /*El border es lo que enmarca al elemento, a este se le puede asignar color y tipo ademas de tamaño*/
+    margin: 20px;
+    /*El margin es la distancia que hay entre cada elemento*/
+}
