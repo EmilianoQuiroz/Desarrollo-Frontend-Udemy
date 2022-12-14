@@ -10,3 +10,5 @@ Curso avanzado de Desarrollo Web con HTML y CSS
     - Atributos en html
     - Colores en html
     - Formato de texto en html
+    - Box model html/css
+    
