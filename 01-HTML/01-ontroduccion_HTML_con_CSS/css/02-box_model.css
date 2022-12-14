@@ -10,4 +10,5 @@ p{
     /*El border es lo que enmarca al elemento, a este se le puede asignar color y tipo ademas de tamaño*/
     margin: 20px;
     /*El margin es la distancia que hay entre cada elemento*/
+    /*Cuando le asignamos un solo valor a cualquiera de estas propiedades, por defeceto, el valor asignado sera el mismo en los cuatro lados de un paddin, un border o un margin. Estos valores pueden ser personalizables utilizando los valores top(Arriba), left(izquierda), rigth(derecha) y buttom(inferior)*/
 }
