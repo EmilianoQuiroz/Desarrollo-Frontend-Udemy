@@ -1,0 +1,22 @@
+h1 {
+    color: #f07167;
+}
+/*Los links por defecto solo tienen dos colores, inicialmente son azules pero cuando el usuario hace click en ellos su color cambia a violeta, estos colores pueden ser modificados con css*/
+a:link {
+    color: #fb8500;
+    /*Aqui estamos cambiando el color del link cuando este todavia no ha sido modificado*/
+    text-decoration: none;
+    /*Con text-decoration: none; podremos quitarle el subrayado por defecto con el que viene el link*/
+}
+a:visited {
+    color: #219ebc;
+    /*Con el estado visited podremos cambiar el color del link cuando este haya sido modificado*/
+}
+a:hover {
+    color: #8ecac6;
+    /*Con el estado hover podemos modificar la apariencia de nuestro link cuando posemos el cursor del mouse sobre el*/
+}
+a:active {
+    color: #023047;
+    /*Con este estado cambairemos la apariencia de nuestro link al hacer click sobre el*/
+}
