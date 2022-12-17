@@ -1,0 +1,20 @@
+/*Con el "*" podremos dar estilos de manera universal, es decir, a todos nuestros elementos*/
+*{
+    font-family: 'roboto', 'sans-serif';/*Le damos una fuente especifica a todo nuestro documento*/
+}
+h1 {
+    color: #560bad;
+}
+/*Le damos estilo a la instancia en la que todavia no le hemos dado click al boton y cuando ya le hayamo dado click*/
+a:link, a:visited {
+    background-color: #b5179e;/*Color de fondo*/
+    color: white;/*Color del texto*/
+    padding: 15px 25px;/*Esoacio entre nuestro elemento y el margen de 15px arriba y abajo y 25px a los costados*/
+    text-align: center;/*Texto centrado*/
+    text-decoration: none;/*Sin decoracion en nuestro elemento*/
+    border-radius: 5px;/*Agregamos un bordeado a nuestro boton de 5px*/
+}
+/*Cambiamos el comportamiento de nuestro boton cuando posemos el cursor del mouse sobre el y cuando hagamos click sobre el*/
+a:hover, a:active {
+    background-color: #f72585;
+}
