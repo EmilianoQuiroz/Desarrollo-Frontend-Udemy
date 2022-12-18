@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;/*Le quitamos el margen y el padding que viene por defecto a todos los elenetos */
+}
 h1 {
     color: #f72585;
     text-align: center;
+    margin: 20px;
 }
 h2 {
     color: #3f37c9;
@@ -14,5 +19,9 @@ p {
     border: 10px solid #560bad;/*Le damos un borde de 10px y un color*/
     background-color: #f1faee;/*Le damos un color de fondo*/
     text-align: center;/*Centramos el texto*/
-    margin-top: 10px;/*Agregamos un margen para separar las cards entre si*/
+    margin: 10px 115px;
+    padding: 15px;
+}
+.title {
+    color: #f72585;
 }
