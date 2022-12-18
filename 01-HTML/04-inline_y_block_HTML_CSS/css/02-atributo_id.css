@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;/*Le quitamos el margen y el padding que viene por defecto a todos los elenetos */
+}
+/*Para llamar a un id desde css tenemos que poner el nombre del identificador y por delante una almohadilla (#). El nombre de nuestro id debe ser unico y no se puede volver a repetir*/
+#title{
+    color: #f72585;
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    color: #3f37c9;
+}
+p {
+    color: #457b9d; 
+}
+/*Estilos de las cards*/
+/*Para llamar a una clase en css solo basta con poner el nombre de la misma con un punto por delante de ella, asi aplicaremos estilos a todos los elementos que tengan ese nombre de clase*/
+.card {
+    border: 10px solid #560bad;/*Le damos un borde de 10px y un color*/
+    background-color: #f1faee;/*Le damos un color de fondo*/
+    text-align: center;/*Centramos el texto*/
+    margin: 10px 115px;
+    padding: 15px;
+}
+.title {
+    color: #f72585;
+}
