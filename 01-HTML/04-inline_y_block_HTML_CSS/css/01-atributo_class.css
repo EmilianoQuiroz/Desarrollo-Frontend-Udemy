@@ -1,0 +1,18 @@
+h1 {
+    color: #f72585;
+    text-align: center;
+}
+h2 {
+    color: #3f37c9;
+}
+p {
+    color: #457b9d; 
+}
+/*Estilos de las cards*/
+/*Para llamar a una clase en css solo basta con poner el nombre de la misma con un punto por delante de ella, asi aplicaremos estilos a todos los elementos que tengan ese nombre de clase*/
+.card {
+    border: 10px solid #560bad;/*Le damos un borde de 10px y un color*/
+    background-color: #f1faee;/*Le damos un color de fondo*/
+    text-align: center;/*Centramos el texto*/
+    margin-top: 10px;/*Agregamos un margen para separar las cards entre si*/
+}
