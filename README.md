@@ -16,3 +16,9 @@ Curso avanzado de Desarrollo Web con HTML y CSS
     - Links con imagenes en html
     - Links con botones en html y css
     - Rutas relativas y absolutas en html
+  + Modulo 3: Listas en HTML:
+    - Listas en html
+    - Menu de navegacion con listas html
+    - Listas ordenada
+    - Listas de descripcion
+    
