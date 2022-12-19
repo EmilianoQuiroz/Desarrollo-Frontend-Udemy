@@ -8,12 +8,22 @@
 </head>
 <body>
     <h1>Formularios en HTML</h1>
-    <form><!-- Los formularios se inician con la etiqueta form-->
-        <label for="nombre">Nombre: </label>
+    <form method="GET"><!-- Los formularios se inician con la etiqueta form-->
+        <label for="nombre">Nombre: </label><!-- Pide el nombre del usuario--><br>
         <input type="text" id="nombre" placeholder="Escribe tu nombre" required ="true">
+        <br>
         <!-- Con la etiqueta input capuramos los datos que ingresa el usuario y con type indicamos el tipo de dato que vamos a ingresar -->
-        <label for="apellido">Apellido: </label>
+        <label for="apellido">Apellido: </label><!-- Pide el apellido del usuario--><br>
         <input type="text" id="apellido" placeholder="Escribe tu apellido" required ="true">
+        <br>
+        <label for="edad">Edad :</label><br>
+        <input type="number" name="edad" id="edad" placeholder="Indica tu edad"><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="imail" placeholder="Escribe tu email">
+        <br>
+        <label for="password">Password: </label><!-- Pide la contraseña del usuarui--><br>
+        <input type="password" id="password" placeholder="Escribe tu contraseña" required ="true">
+        <br>
         <!-- Para validar el envio de la informacion de un input podemos poner un required-->
         <input type="submit" value="enviar">
 
