@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+.blue_alarm{
+    font-size: 20px; 
+    color: cornflowerblue;
+}
+.red_icon{
+    font-size: 20px;
+    color: red;
+}
