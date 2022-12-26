@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');/*De esta manera podemos importar fuentes directamente de google fonts*/
+
 h1{
     color: #f8269d;/*Color de texto*/
     text-align: center;/*Centramos nuestro texto*/
     text-transform: uppercase;/*Cambiamos todo el texto a mayuscula*/
     text-shadow: 2px 2px 2px #ced4da;/*Sombreado en el texto*/
+    /*Google font*/
+    font-family: 'Rubik Bubbles', cursive;;
 }
 .container{
     padding: 5px;/*Espacio de 5 px entre nuestro contenido y el borde del contenedor*/
@@ -20,6 +24,7 @@ h1{
 }
 .fuente_times{
     font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;/*Con esta propiedad podemos modificar el tamaño de nuestra fuente, ya sea con px, em, rem, vh o palabras reserevadas*/
 }
 .fuente_georgia{
     font-family: Georgia, 'Times New Roman', Times, serif;
