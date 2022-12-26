@@ -1,0 +1,24 @@
+h1{
+    color: #f8269d;/*Color de texto*/
+    text-align: center;/*Centramos nuestro texto*/
+    text-transform: uppercase;/*Cambiamos todo el texto a mayuscula*/
+    text-shadow: 2px 2px 2px #ced4da;/*Sombreado en el texto*/
+}
+.container{
+    padding: 5px;/*Espacio de 5 px entre nuestro contenido y el borde del contenedor*/
+    width: 40%;/*Ancho de nuestro contenedor*/
+    height: 80px;/*Alto de nuestro contenedor*/
+    border-radius: 5px;/*Bordes redondeados*/
+    color: #fff;/*Color de texto blanco*/
+    text-align: center;/*Texto alineado al centro*/
+    margin: 10px;/*Espacio de 10 px entre los contenedores*/
+    font-size: 20px;/*Tamaño de fuente*/
+    float: left;/*Alineamos las cajas a la derecha*/
+}
+.container.serif{
+    background-color: #5a189a;/*Le damos un color de fondo a los contenedores que tengan la clase serif*/
+}
+
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+}
