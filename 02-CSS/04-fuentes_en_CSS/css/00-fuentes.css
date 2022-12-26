@@ -18,7 +18,25 @@ h1{
 .container.serif{
     background-color: #5a189a;/*Le damos un color de fondo a los contenedores que tengan la clase serif*/
 }
-
 .fuente_times{
     font-family: 'Times New Roman', Times, serif;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container.sans-serif{
+    background-color: #00b4b8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container.monospace{
+    background-color: #f15bb5;
+}
+.container.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container.cursive{
+    background-color: #d0532c;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', cursive;
 }
