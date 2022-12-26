@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: #e64294;
+}
+/*
+PADDING: es lo que separa a nuestro elemento del borde
+BORDER: es lo que enmarca a nuestro elemento
+MARGIN: es lo que divide a nuestro elemento de los demas elementos html
+*/
+div{
+    text-align: center;
+    padding: 10px;
+    border: 15px solid#e64294;
+    margin: 30px;
+}
