@@ -1,0 +1,12 @@
+body{
+    background-color: #2727e6;/*Podemos pintar el fondo de cualquier color*/
+    color: #fff8dc;
+    background-image: url("https://img.freepik.com/foto-gratis/resumen-azul-oscuro-liso-vineta-negra-studio-bien-usa-como-fondo-informe-comercial-digital-plantilla-sitio-web-telon-fondo_1258-53425.jpg?w=740&t=st=1672078264~exp=1672078864~hmac=fb87cc42c9ce03efa062a9d6cc349bd104537d5d24053c5a9ac3b649c1f28705");/*Con background image podemos poner una imagen de fondo especificando la ruta de esta en la url que solicita esta propiedad. Esta ruta puede ser a una imagen que tengamos descargada o un enlace web a la imagen*/
+    background-repeat: no-repeat;/*Con esta propiedad la imagen que pusimos como fondo no se repetira*/
+    background-position: top;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    background-color: black;
+}
