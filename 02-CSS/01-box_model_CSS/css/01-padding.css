@@ -1,0 +1,10 @@
+h1{
+    border: 10px solid #1b7ac7;
+    padding: 10px 5px 15px;
+    /*El padding es la separacion entre nuestro contenido y el borde, en este caso indicamos que en la parte de arriba tendremos 10 px de paddigo, a los constados 5 px y en la parte inferior 15 px*/
+    width: 300px;
+    box-sizing: border-box;
+    /*Con border box el contenido va a ocupar el espacio que le establezcamos, en este caso 300 px*/
+    margin: auto;
+    /*Con margin: auto; podemos centrar nuestro elemento*/
+}
