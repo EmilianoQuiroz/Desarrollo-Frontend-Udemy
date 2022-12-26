@@ -1,0 +1,6 @@
+h1{
+    text-align: center;/*Centramos el texto*/
+    border: 10px solid;/*Borde solido de 10 px de ancho*/
+    border-color: aqua red steelblue green;
+    /*Con la propiedad border color podemos asignar distintos colores a cada lado de nuestro borde*/
+}
