@@ -1,0 +1,5 @@
+h1{ 
+    text-align: center;
+    border: 10px solid red;
+    /*Con la propiedad border podemos manejar el estilo de los bordes, en este caso un borde solido de 1 px y de color rojo*/
+}
