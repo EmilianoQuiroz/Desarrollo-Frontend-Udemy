@@ -3,3 +3,18 @@ h1{
     border: 10px solid red;
     /*Con la propiedad border podemos manejar el estilo de los bordes, en este caso un borde solido de 1 px y de color rojo*/
 }
+h2 {
+    text-align: center;
+}
+.dashed {
+    border: 10px dashed #ff69b4;
+    /*Con dashed agregamos una linea punteada como borde*/
+}
+.double{
+    border: 10px double #0000ff;
+    /*Con double agregamos una linea doble como borde*/
+}
+.dotted{
+    border: 10px dotted #ffd700;
+    /*Con dotted agragamos una linea punteada como borde*/
+}
