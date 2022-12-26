@@ -1,0 +1,27 @@
+h1{
+    font-family: 'roboto';/*Tipo de fuente*/
+    color: #e85870;/*Color de nuestro contenido*/
+    background-color: #f5f5dc;/*Color de fondo*/
+    text-align: center;/*Centramos nuestro texto*/
+    text-transform: uppercase;/*Transformamos nuestro texto a mayusculas*/
+    text-shadow: 2px 2px 2px #686666;/*Agregamos una sombra al texto*/
+    letter-spacing: 5px;/*Damos una separacion entre las letras*/
+    word-spacing: 6px;/*Espaciado entre las palabras*/
+    text-decoration: overline;/*Con esta propiedad podemos agregar una linea por encima de nuestro texto*/
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de fuente*/
+    padding: 15px;/*Espacio entre nuestro elemento y el borde*/
+    margin: auto;/*Espacio entre nuestro elemento y otros elementos*/
+    width: 50%;/*Tamaño de nuestro contenedor*/
+    background-color: #1c03ff;/*Color de fondo*/
+    border-radius: 10px;/*Bordes redondeados*/
+    color: white;/*Color de texto*/
+}
+.text{
+    text-align: justify;/*Con esta propiedad el texto se alinea en el contenedor*/
+    direction: ltr;/*Con esta propiedad podemos cambiar la direccion a la que se dirige el texto en este caso ltr (left to rigth)*/
+    text-indent: 30px;/*Identacion de 30 px en nuestro texto*/
+    line-height: 1.5;/*Espacio entre las lineas de nuestro texto*/
+    text-shadow: 1px 1px 1px #808080;
+}
