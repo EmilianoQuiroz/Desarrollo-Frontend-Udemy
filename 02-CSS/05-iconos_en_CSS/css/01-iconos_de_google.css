@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: steelblue;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+.red_icon{
+    color: red;
+}
+.green_icon{
+    color: green;
+}
+.blue_icon{
+    color: steelblue;
+}
