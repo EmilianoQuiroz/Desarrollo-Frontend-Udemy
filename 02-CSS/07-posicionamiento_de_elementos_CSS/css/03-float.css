@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: steelblue;
+}
+div.container{
+    border: 3px dashed green;
+    width: 40%;
+    height: 100px;
+    overflow: auto;
+}
+div.container.flotado{
+    float: left;
+}
+div.contenedor1{
+    border: 3px dashed greenyellow;
+    float: right;
+}
+div.contenedor2{
+    border: 3px dashed steelblue;
+    
+}
