@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: roboto;
+}
+div.container{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+
+}
+img.imagen{
+    width: 100%;
+    opacity: .5;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: roboto;
+}
