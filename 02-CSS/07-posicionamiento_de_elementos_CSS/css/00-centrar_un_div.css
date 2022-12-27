@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: steelblue;
+}
+div{
+    width: 50%;/*Le damos un tamaño al div*/
+    border: 3px solid firebrick;/*Agregamos un borde para tener referencia*/
+    margin: auto;/*Agregando el margin auto tendremos el mismo margen de un lado que del otro, con lo cual el elemento pasara a estar centrado*/
+    text-align: center;
+}
