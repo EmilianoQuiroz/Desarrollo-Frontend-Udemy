@@ -1,0 +1,23 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+}
+.relative{
+    color: red;
+    position: relative;/*Le asignamos el valor de posicionamiento relativo*/
+    left: 200px;
+    top: 50px;
+    /*Movemos el elemento 200 px a la derecha de su posicion original y 50 px hacia abajo*/
+}
+.fixed{
+    color: blue;
+    position: fixed;/*Con este posicionamiento el elemento se queda fijo en el lugar*/
+    top: 0;
+    left: 0;
+}
+.sticky{
+    color: green;
+    position: sticky;
+    top: 0;
+}
