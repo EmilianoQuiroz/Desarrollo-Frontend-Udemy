@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: steelblue;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+    font-family: 'roboto';
+}
+.color_red{
+    color: red;
+}
+.color_blue{
+    color: steelblue;
+}
+.color_green{
+    color: green;
+}
