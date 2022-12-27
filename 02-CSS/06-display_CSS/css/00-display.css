@@ -1,0 +1,14 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;   
+    padding: 3px;
+    /*Al ser de tipo block por defecto, estos elementos se muestran uno abajo del otro, ya que, cada uno ocupa toda la linea*/
+    display: inline;/*Cambiando el display a inline podemos hacer que los elementos se muestren uno al lado del otro en una misma linea*/
+}
+a{
+    display: block;/*Ahora los elementos a pasan a mostrarse uno a bajo del otro*/
+    margin-top: 20px;
+}
+li{
+    display: inline;/*Ahora los elementos de la lista se muestran en la misma linea*/
+}
