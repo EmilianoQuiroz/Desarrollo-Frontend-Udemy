@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.container{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed steelblue;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: #a8dadc;
+    border:  1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
