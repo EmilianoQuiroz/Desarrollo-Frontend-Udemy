@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.contenedor{
+    display: flex;/*De manera automatica los parrafos se acomodan de manera horizontal*/
+    background-color: #560bad;
+    /*Con flex-direction podemos acomodar la direccion en la que queremos que esten nuestro elementos */
+    /* flex-direction: column;  Para mostrar nuestros elementos en columna */
+}
+div.contenedor > p {
+    background-color: #4896ef;
+    color: #f1faee;
+    padding: 15px;
+    margin: 20px;
+    font-size: 1.5em;
+}
