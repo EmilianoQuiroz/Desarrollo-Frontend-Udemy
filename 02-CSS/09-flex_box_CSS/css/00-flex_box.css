@@ -9,6 +9,12 @@ div.contenedor{
     background-color: #560bad;
     /*Con flex-direction podemos acomodar la direccion en la que queremos que esten nuestro elementos */
     /* flex-direction: column;  Para mostrar nuestros elementos en columna */
+    /* flex-direction: row; Para que se muestren de manera horizontal*/
+    flex-wrap: wrap;/*Con flex wrap podremos envolver a nuestros elementos sin importar el tamaño de la pantalla*/
+    justify-content: center;/*Con justify center podemos centrar nuestros elementos*/
+    height: 300px;
+    align-items: center;
+    align-content: center;/*Nos permite organizar nuestro conetnido de manera vertical*/
 }
 div.contenedor > p {
     background-color: #4896ef;
