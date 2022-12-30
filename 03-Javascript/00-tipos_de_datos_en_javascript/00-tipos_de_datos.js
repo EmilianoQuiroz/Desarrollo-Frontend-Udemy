@@ -30,3 +30,10 @@ let objeto = {
 }
 console.log(objeto); /* En este ejemplo imprimimos el objeto
 /* Con un objeto podemos contener varias propiedades */
+
+/* En javascript las variables son dinamicas, es decir, pueden volver a cambiar su valor */
+
+//-- TypeOf en Javascript --//
+//Con esta propiedad podremos saber que tipos de dato guarda una variable
+
+console.log(typeof nombre);/* Se usa escribiendo typeof seguido del nombre de la variable*/
