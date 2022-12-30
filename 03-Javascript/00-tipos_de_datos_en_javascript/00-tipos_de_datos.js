@@ -31,6 +31,16 @@ let objeto = {
 console.log(objeto); /* En este ejemplo imprimimos el objeto
 /* Con un objeto podemos contener varias propiedades */
 
+//-- Tipo de datp Undefined --//
+//Es un tipo de dato que no esta definido
+let x;
+console.log(typeof x);/* Como no hemos guardado ningun valor en la variable x entonces el valor es indefinido */
+
+//-- Tipo de dato Null --//
+//Es un tipo de dato que indica que no tiene ningun valor en la variable
+let y = null;
+console.log(y); /* En este ejemplo imprimimos el valor de y
+
 /* En javascript las variables son dinamicas, es decir, pueden volver a cambiar su valor */
 
 //-- TypeOf en Javascript --//
