@@ -38,3 +38,32 @@ console.log(a);
 //PostDecremento
 let postDecremento = a--;
 console.log(a); 
+
+//***** OPERADORES DE ASIGNACION  *****/
+
+/*
+Asignación de adición	x += y
+Asignación de resta	x -= y
+Asignación de mult    x *= y
+Asignación de división	x /= y
+*/
+
+//***** OPERADORES DE COMPARACION *****//
+
+/*
+Igual a     x == y
+Estrictamente igual a   x == y
+Mayor que    x > y
+Menor que    x < y
+Mayor o igual    x >= y
+Menor o igual    x <= y
+Distinto a  x != y
+*/
+
+//***** OPERADORES DE LOGICOS *****//
+
+/*
+AND &&
+OR ||
+NOT !
+*/
