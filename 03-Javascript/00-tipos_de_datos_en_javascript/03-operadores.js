@@ -67,3 +67,11 @@ AND &&
 OR ||
 NOT !
 */
+
+/***** OPERADOR TERNARIO *****/
+let resultado = (3 > 2) ? "Verdadero" : "Falso";//Si 3 es mayor que 2 imprime verdadero, de lo contrario imprime falso
+
+//El operador ternario es una forma resumida de if else
+//Primero ponemos la condicion que se debe cumplir y luego las opciones que se ejecutaran en caso de que la condicion se cumpla o no
+
+console.log(resultado);
