@@ -46,4 +46,4 @@ let empleado1 = new Empleado('Santiago', 'Quiroz', 'It');
 console.log(empleado1);
 
 //Accedemos al metodo creado
-console.log(empleado1.nombreCompleto());
+console.log(empleado1.nombreCompleto());/*Ya que es una funcion va con parentesis*/
