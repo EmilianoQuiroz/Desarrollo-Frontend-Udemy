@@ -19,6 +19,9 @@ class Persona{
     set apellido(apellido){
         this._apellido = apellido;
     }
+    nombreCompleto() {
+        return this._nombre + ' ' + this._apellido;
+    }
 }
 
 //Clase hija
@@ -33,9 +36,11 @@ class Empleado extends Persona{
         set area(area){
             this._area = area;
         }
-    /*Heredar metodos*/
+
+    /*Sobreescritura*/
+    /*Podemos sobreescribir metodos creados en la clase padre*/
     nombreCompleto(){
-        return this._nombre + " " + this._apellido;
+        return this._nombre + ' ' + this._apellido + ' ' + this._area;
     }
 }
 
