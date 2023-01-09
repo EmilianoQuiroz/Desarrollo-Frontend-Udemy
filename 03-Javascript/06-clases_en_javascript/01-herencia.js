@@ -33,6 +33,10 @@ class Empleado extends Persona{
         set area(area){
             this._area = area;
         }
+    /*Heredar metodos*/
+    nombreCompleto(){
+        return this._nombre + " " + this._apellido;
+    }
 }
 
 //Creamos un nuevo objeto con la clase hija 
@@ -40,3 +44,6 @@ let empleado1 = new Empleado('Santiago', 'Quiroz', 'It');
 
 //Imprimimos los valores de la clase hija
 console.log(empleado1);
+
+//Accedemos al metodo creado
+console.log(empleado1.nombreCompleto());
