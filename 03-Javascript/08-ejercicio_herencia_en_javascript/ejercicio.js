@@ -47,7 +47,7 @@ class Persona {
 class Empleado extends Persona{
 
     //Definimos la variable estatica de contador empleados
-    static contadorEmpleados;
+    static contadorEmpleados = 0;
 
     //Definimos los atributos de la variable empleado con un constructor
     constructor(sueldo){
@@ -68,5 +68,31 @@ class Empleado extends Persona{
     toString(){
         return super.toString() + ' ' + this._idEmpleado + ' ' + this._sueldo;
     }
- 
+}
+
+//Creacion de la clase Cliente
+class Cliente extends Persona{
+    
+    //Definimos la variable estatica de contador Clientes
+    static contadorClientes = 0;
+
+    //Definimos los atributos de nuestra clase
+    constructor(fechaRegistro){
+        this._idCliente = ++Cliente.contadorClientes;
+        this._fechaRegistro = fechaRegistro;
+    }
+
+    //Agregamos los metodos
+    get idCliente(){
+        return this._idCliente;
+    }
+    get fechaRegistro(){
+        return this._fechaRegistro;
+    }
+    set fechaRegistro(fechaRegistro){
+        this._fechaRegistro = fechaRegistro;
+    }
+    toString(){
+        return super.toString() + ' ' + this._idCliente + ' ' + this._fechaRegistro;
+    }
 }
