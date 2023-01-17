@@ -9,8 +9,8 @@ class Persona {
     static contadorPersonas = 0;
 
     //Definimos los atributos de nuestra clase con un constructor
-    constructor(idPersona, nombre,apellido,edad){
-        this._idPersona = idPersona;
+    constructor(nombre,apellido,edad){
+        this._idPersona = ++Persona.contadorPersonas;
         this._nombre = nombre;
         this._apellido = apellido;
         this._edad = edad;
@@ -41,4 +41,32 @@ class Persona {
     toString() {
         return `${this._idPersona} ${this._nombre}  ${this._apellido} ${this._edad}`;
     }
+}
+
+//Creacion de la clase Empleado
+class Empleado extends Persona{
+
+    //Definimos la variable estatica de contador empleados
+    static contadorEmpleados;
+
+    //Definimos los atributos de la variable empleado con un constructor
+    constructor(sueldo){
+        this._idEmpleado = ++Empleado.contadorEmpleados;
+        this._sueldo = sueldo;
+    }
+
+    //Creamos los metodos de nuestra clase
+    get idEmpleado (){
+        return this._idEmpleado;
+    }
+    get sueldo (){
+        return this._sueldo;
+    }
+    set sueldo(sueldo){
+        this._sueldo = sueldo;
+    }
+    toString(){
+        return super.toString() + ' ' + this._idEmpleado + ' ' + this._sueldo;
+    }
+ 
 }
