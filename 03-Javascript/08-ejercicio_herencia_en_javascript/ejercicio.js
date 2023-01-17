@@ -50,7 +50,8 @@ class Empleado extends Persona{
     static contadorEmpleados = 0;
 
     //Definimos los atributos de la variable empleado con un constructor
-    constructor(sueldo){
+    constructor(nombre,apellido,edad,sueldo){
+        super(nombre,apellido,edad);
         this._idEmpleado = ++Empleado.contadorEmpleados;
         this._sueldo = sueldo;
     }
@@ -77,7 +78,8 @@ class Cliente extends Persona{
     static contadorClientes = 0;
 
     //Definimos los atributos de nuestra clase
-    constructor(fechaRegistro){
+    constructor(nombre,apellido,edad,fechaRegistro){
+        super(nombre,apellido,edad);
         this._idCliente = ++Cliente.contadorClientes;
         this._fechaRegistro = fechaRegistro;
     }
@@ -96,3 +98,24 @@ class Cliente extends Persona{
         return super.toString() + ' ' + this._idCliente + ' ' + this._fechaRegistro;
     }
 }
+
+//Prueba clase Persona
+let persona1 = new Persona('Juan', 'Perez', 29);
+console.log(persona1.toString());
+
+let persona2 = new Persona('Pepe', 'Luis', 33);
+console.log(persona2.toString());
+
+//Prueba clase Empleado
+let empleado1 = new Empleado('Karla', 'Gomez', 31, 120000);
+console.log(empleado1.toString());
+
+let empleado2 = new Empleado('Laura', 'Perez', 21, 130000);
+console.log(empleado2.toString());
+
+//Prueba clase Cliente
+let cliente1 = new Cliente('Pedro', 'Perez',30, new Date());
+console.log(cliente1.toString());
+
+let cliente2 = new Cliente('Maria', 'Gimenez',20, new Date());
+console.log(cliente2.toString());
