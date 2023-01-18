@@ -53,7 +53,7 @@ class Orden{
     constructor(){
         this._idOrdenes = ++Orden.contadorOrdenes;
         this._producto = [];
-        this.contadorProductosAgregados = 0;
+        //this.contadorProductosAgregados = 0;
     }
 
     //Metodos
@@ -81,9 +81,20 @@ class Orden{
     mostrarOrden(){
         let productosOrden = '';
         for(let producto of this._producto){
-            productosOrden += producto.toString() + ' ';
+            productosOrden +='\n{' + producto.toString() + '}';
         }
 
-        console.log(`Orden . ${this._idOrdenes} Total: ${this.calcularTotal()}, Productos: ${productosOrden}`);
+        console.log(`Orden . ${this._idOrdenes} Total: $${this.calcularTotal()}, Productos: ${productosOrden}`);
     }
 }
+
+
+//Prueba Orden 
+let producto1 = new Producto('Pantalon', '20000');
+let producto2 = new Producto('Hoddie', '11000');
+
+let orden1 = new Orden();
+orden1.agregarProducto(producto1);
+orden1.agregarProducto(producto2);
+
+orden1.mostrarOrden();
