@@ -41,3 +41,18 @@ console.log(producto2.toString());
 */
 
 //Clase orden
+class Orden{
+    
+    static contadorOrdenes = 0;
+
+    static get MAX_PRODUCTOS(){
+        return 5;
+    }
+
+    constructor(){
+        this._idOrdenes = ++Orden.contadorOrdenes;
+        this._idProduct = [];
+        this.contadorProductosAgregados = 0;
+    }
+
+}
