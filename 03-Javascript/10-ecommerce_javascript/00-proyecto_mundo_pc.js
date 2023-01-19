@@ -67,8 +67,59 @@ class Teclado extends DispositivoEntrada{
 }
 
 //Prueba clase Teclado
-/*let teclado1 = new Teclado('USB', 'RedDragon');
+/*
+let teclado1 = new Teclado('USB', 'RedDragon');
 console.log(teclado1.toString());
 let teclado2 = new Teclado('Bluetooth', 'Logitech');
 console.log(teclado2.toString());
 */
+
+//Clase Monitor (Es una clase independiente)
+
+class Monitor{
+    
+    static contadorMonitor = 0;
+
+    constructor(marca, tamaño){
+        this._idMonitor = ++Monitor.contadorMonitor;
+        this._marca = marca;
+        this._tamaño = tamaño;
+    }
+
+    get idMonitor(){
+        return this._idMonitor;
+    }
+    toString(){
+        return `Monitor: [idMonitor: ${this._idMonitor}, Marca: ${this._marca}, Tamaño: ${this._tamaño}]`;
+    }
+}
+
+//Prueba clase Monitor
+/*
+let monitor1 = new Monitor('RedDragon', '24');
+console.log(monitor1.toString());
+console.log(monitor2.toString());
+*/
+
+//Class computadora
+class Computadora{
+    static contadorComputadoras = 0;
+    constructor(nombre, monitor, raton, teclado){
+        this._idComputadora = ++Computadora.contadorComputadoras;
+        this._nombre = nombre;
+        this._monitor = monitor;
+        this._raton = raton;
+        this._teclado = teclado;
+    }
+    toString(){
+        return `Computadora ${this._idComputadora}: ${this._nombre}\n ${this._monitor}\n ${this._raton}\n ${this._teclado}`;
+    }
+}
+let raton1 = new Raton('USB', 'HP');
+let teclado1 = new Teclado('USB', 'RedDragon');
+let monitor1 = new Monitor('RedDragon', '24');
+
+
+let computadora1 = new Computadora('HP', monitor1, teclado1, raton1);
+
+console.log(computadora1.toString());
