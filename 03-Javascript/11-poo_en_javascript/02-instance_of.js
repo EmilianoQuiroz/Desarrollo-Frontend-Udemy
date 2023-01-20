@@ -1,5 +1,5 @@
-//*****Programacion Orientada a Objetos en Javascript (Polimosrfismo) *****//
-//El polimorfismo es la capacidad que nos proporciona un lenguaje de programación orientado a objetos para tratar un objeto como si fuera un objeto de otra clase.
+//*****Programacion Orientada a Objetos en Javascript (instance Of) *****//
+//Con esta palabra reservada podemos preguntar si un parametro pertenece a cierta clase
 
 //Clase padre
 class Empleado {
@@ -26,13 +26,22 @@ class Gerente extends Empleado{
 }
 //Metodo independiente
 /*Estamos aplicando una de las multiples formas en las que podemos llamar a un metodo de la clase padre o hija*/
-function imprimir(tipo){
+function determinarTipo(tipo){
     console.log(tipo.obtenerDetalles());
+    if(tipo instanceof Gerente){
+        console.log('Es un objeto de tipo gerente');
+    }
+    else if(tipo instanceof Empleado){
+        console.log('Es un objeto de tipo empleado');
+    }
+    else if(tipo instanceof Object){
+        console.log('Es un objeto');
+    }
 }
 //Elemento de la clase padre
 let empleado1 = new Empleado('Pedro', 3500);
 //Creamos el objeto de la clase hija
 let gerente1 = new Gerente('Luis', 3000, 'Sistemas');
 
-imprimir(empleado1);//Estamos imprimiendo el metodo obtenerDetalles de la clase padre
-imprimir(gerente1);
+determinarTipo(empleado1);//Estamos imprimiendo el metodo obtenerDetalles de la clase padre
+determinarTipo(gerente1);
