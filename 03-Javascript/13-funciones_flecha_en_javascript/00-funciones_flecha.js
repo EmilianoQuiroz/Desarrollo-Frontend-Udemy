@@ -11,7 +11,17 @@ miFuncion();
 */
 
 //Funcion flecha
-let miFuncion = () => console.log('Hola desde mi funcion')
+let miFuncion = () => console.log('Hola desde mi funcion');
 /*Cuando usamos funciones flecha no aplica el concepto de Hoisting*/
 
 miFuncion();
+
+//Tambien podemos retornar informacion desde las funciones flecha
+const saludar = () => 'Saludos desde mi funcion flecha'
+
+console.log(saludar());
+
+//Funcion con parametros
+const funcionConParametros = (mensaje) => console.log(mensaje);
+
+funcionConParametros('Saludo desde parametros');
