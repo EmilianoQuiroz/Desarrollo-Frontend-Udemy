@@ -24,3 +24,16 @@ function sumar(num1, num2, funcionCallback){
 }
 
 sumar(4, 10, imprimir);
+
+//El objetivo de las funciones callbacks es que puedan ser utilizadas de manera asincrona
+
+//***** Llamadas Asincronas con Set Time Out en Javascript *****//
+
+function miFuncionCallback(){
+    console.log('Saludo asincrono despues de tres segundos');
+}
+
+setTimeout(miFuncionCallback, 3000);//La funcion se ejecuta despues de tres segundos
+/*setTimeout tambien puede recibir directamente la funcion como parametro*/
+
+setTimeout(() => console.log('Saludo asincrono despues de 5 segundos'), 5000);//La funcion se pasa como parametro en el setTimeout y se ejecuta despues de 5 segundos
