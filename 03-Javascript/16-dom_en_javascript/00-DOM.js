@@ -24,3 +24,8 @@ console.log(cabecero);
 
 let etiqueta = document.getElementsByTagName('strong');/*Accedemos a todos los elementos que tengan la etiqueta 'strong'*/
 document.write(etiqueta.length);/*Imprimimos el numero de elementos*/
+
+//***** querySelectorAll en Javascript *****//
+/*Con este selector podemos acceder a nuestro documento html indicando la etiqueta y su calse*/
+
+let etiquetaYClase = document.querySelectorAll('p.clase').innerHTML;
