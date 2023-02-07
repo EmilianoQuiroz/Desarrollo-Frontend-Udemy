@@ -15,5 +15,4 @@ class Dato{
     set valor(valor){
         this._valor = valor;
     }
-
 }
