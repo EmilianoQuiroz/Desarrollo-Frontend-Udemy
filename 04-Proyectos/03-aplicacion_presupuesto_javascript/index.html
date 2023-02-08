@@ -8,8 +8,6 @@
     <link href="css/estilos.css" rel='stylesheet'/>
 </head>
 <body onload='cargarApp()'>
-    
-    <!-- Cabecero -->
     <div class="cabecero">
         <div class="presupuesto">
             <div class="presupuesto_titulo">
@@ -33,23 +31,24 @@
         </div>
     </div>
 
-    <!-- Formulario agregar nuevo ingreso / egreso -->
-    <form id="forma" onsubmit="return false;">
+    <form id='forma' onsubmit="return false;">
         <div class="agregar">
             <div class="agregar_contenedor">
-                <select id="tipo" class="agregar_tipo">
-                    <option value="ingreso" selected>+</option>
-                    <option value="egreso">-</option>
+                <select class='agregar_tipo' id='tipo'>
+                    <option value='ingreso' selected>+</option>
+                    <option value='egreso'>-</option>
                 </select>
-                <input type="text" class="agregar_descripcion" placeholder="Agregar Descripcion" id="descripcion">
-                <input type="number" class="agregar_valor" placeholder="Valor" id="valor" step="any">
-                <button class="agregar_btn" onclick="agregarDato">
+                <input type='text' class='agregar_descripcion'
+                placeholder="Agregar Descripción" id='descripcion'/>
+                <input type='number' class='agregar_valor'
+                placeholder="Valor" id='valor' step='any'/>
+                <button class='agregar_btn' onclick="agregarDato()">
                     <ion-icon name="checkmark-circle-outline"></ion-icon>
                 </button>
             </div>
         </div>
     </form>
-    <!-- Ingresos y egresos -->
+
     <div class="contenedor limpiarEstilos">
         <div class="ingreso">
             <h2 class='ingreso_titulo'>Ingresos</h2>
@@ -109,12 +108,10 @@
         </div>
     </div>
 
-    <!-- Scripts js-->
     <script src='js/Dato.js'></script>
     <script src='js/Ingreso.js'></script>
     <script src='js/Egreso.js'></script>
     <script src='js/app.js'></script>
-    <!-- Scripts ionic-->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
