@@ -65,3 +65,19 @@
   + Modulo 10: FlexBox en CSS:
     - Introduccion a Flex Box
 ## JAVASCRIPT.
+  + Tipos de datos
+  + Condicionales
+  + Ciclos
+  + Arreglos
+  + Funciones
+  + Objetos
+  + Clases
+  + Static
+  + Herencia
+  + Programacion Orientada a Objetos
+  + Manejo de errores
+  + Funciones Flecha
+  + Funciones Call Back
+  + Promesas
+  + Document Objet Model (DOM)
+  + Eventos
