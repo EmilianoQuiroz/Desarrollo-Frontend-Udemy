@@ -1,5 +1,5 @@
 # Desarrollo-Frontend-Udemy
-## Curso avanzado de Desarrollo Web con HTML y CSS
+## Curso avanzado de Desarrollo Web con HTML, CSS y JAVASCRIPT.
 ![image](https://user-images.githubusercontent.com/78452543/217433314-cf173afd-4cf0-42bc-a507-2afa02637e0d.png)
 
 ## Temas:
@@ -36,8 +36,32 @@
    + Modulo 7: Elementos semanticos HTML:
     - Introduccion a elementos semanticos
 ## CSS.
-  + Modulo 1: Introduccion a CSS:
-  + Modulo 2: Colores y bordes en CSS:
-  + Modulo 3: Box Model en CSS:
-  + Modulo 4: Manejo de colores en CSS:
+  + Modulo 1: Colores y bordes en CSS:
+    - Colores y bordes
+    - Bordes redondeados
+  + Modulo 2: Box Model en CSS:
+    - Introduccion a Box Model
+    - Padding
+  + Modulo 3: Manejo de colores en CSS:
+    - Introduccion a manejo de fondos
+  + Modulo 4: Formato de texto en CSS:
+    - Introduccion al formato de texto
+  + Modulo 5: Fuentes en CSS:
+    - Introduccion a fuentes
+  + Modulo 6: Iconos en CSS:
+    - Iconos de bootstrap
+    - Iconos de Google
+    - Iconos de Ionic
+  + Modulo 7: Display en CSS:
+    - Introduccion a display
+  + Modulo 8: Posicionamiento de elementos en CSS:
+    - Centrar un div
+    - Posicionamiento
+    - Centrar elementos
+    - Float
+    - Inline block
+  + Modulo 9: Gradientes en CSS:
+    - Introduccion a gradientes
+  + Modulo 10: FlexBox en CSS:
+    - Introduccion a Flex Box
 ## JAVASCRIPT.
